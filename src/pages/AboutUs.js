@@ -1,10 +1,5 @@
 const AboutUs = () => {
-  return (
-    <>
-      <p>about us</p>
-      <a href="/">go to home page</a>
-    </>
-  );
+  return <p>about us</p>;
 };
 
 export default AboutUs;
