@@ -27,13 +27,12 @@ a {
 }
 .activeLink {
   color: rgb(51, 48, 48);
-
 }
 p {
   margin: 30px 20px;
   font-size: 19px;
   font-weight: bold;
-  color: rgb(112, 112, 112);
+  color: rgb(31, 28, 28);
 }
 h2 {
   margin: 30px 20px;
@@ -41,5 +40,5 @@ h2 {
   color: rgb(78, 78, 78);
 }
 footer {
-  background-color: #ccc;
+  background-color: #558a4e;
 }
