@@ -5,7 +5,10 @@ const Blog = (props) => {
   return (
     <div>
       <h2> blog detail - {id} </h2>
-      <Link to="/blogs">
+      <Link to={`/blogs/${parseInt(id) + 1}`}>
+        <p>Go to next page</p>
+      </Link>
+      <Link to="/blogs" className="reflink">
         <p>Go to blog page</p>
       </Link>
     </div>
